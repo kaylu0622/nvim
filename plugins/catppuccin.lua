@@ -2,7 +2,8 @@ return {
   "catppuccin/nvim",
   name = "catppuccin",
   opts = {
-    transparent_background = vim.g.transparent_background,
+    -- transparent_background = vim.g.transparent_background,
+    transparent_background = true,
     show_end_of_buffer = true,
     flavour = "mocha", -- latte, frappe, macchiato, mocha
     background = { -- :h background
